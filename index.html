@@ -3,30 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>自己紹介ページ</title>
-  <link rel="stylesheet" href="style.css">
+  <title>吹奏楽ファンのサイト - 古賀祐基</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="profile-card">
-    <img src="profile.jpg" alt="プロフィール画像" class="profile-img">
-    <h1>あなたの名前</h1>
-    <p class="short-bio">こんにちは！Web開発が好きなエンジニアです。</p>
+  <div class="container">
+    <header>
+      <h1>古賀祐基の吹奏楽ライフ</h1>
+      <p>吹奏楽の魅力に浸る！音楽と共に生きる毎日</p>
+    </header>
 
-    <h2>スキル</h2>
-    <ul class="skills">
-      <li>HTML / CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Node.js</li>
-    </ul>
+    <section class="intro">
+      <div class="intro-text">
+        <h2>吹奏楽への情熱</h2>
+        <p>吹奏楽は私の心を揺さぶる音楽です。演奏の迫力、ハーモニー、そして多様な楽器の音が重なり合う瞬間が最高です。</p>
+        <p>ここでは、私が好きな吹奏楽の曲や演奏会についてシェアしています。</p>
+      </div>
+      <div class="intro-image">
+        <img src="https://via.placeholder.com/400x300?text=吹奏楽" alt="吹奏楽イメージ">
+      </div>
+    </section>
 
-    <button onclick="toggleDetails()">もっと見る</button>
-    <div id="details" class="details hidden">
-      <p>趣味は音楽鑑賞、カフェ巡り、ゲームなど。最近はAI開発にも興味があります！</p>
-      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
-    </div>
+    <section class="favorite-music">
+      <h2>お気に入りの吹奏楽曲</h2>
+      <div class="music-list">
+        <div class="music-item">
+          <h3>「吹奏楽のための交響曲」</h3>
+          <p>この曲は大編成の吹奏楽で迫力満点。音の洪水に包まれるような感覚が魅力です。</p>
+        </div>
+        <div class="music-item">
+          <h3>「アメリカン・パトロール」</h3>
+          <p>軽快で楽しいメロディが印象的で、特に終盤の盛り上がりが最高です。</p>
+        </div>
+        <div class="music-item">
+          <h3>「サウンド・オブ・ミュージック」</h3>
+          <p>映画『サウンド・オブ・ミュージック』の名曲を吹奏楽アレンジで楽しめる、心温まる作品です。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="instruments">
+      <h2>吹奏楽の楽器たち</h2>
+      <p>私の好きな楽器たちを紹介します。吹奏楽の魅力は、楽器の多様性にあります。</p>
+      <div class="instruments-list">
+        <div class="instrument-item">
+          <h3>トランペット</h3>
+          <img src="https://via.placeholder.com/150x100?text=Trumpet" alt="トランペット">
+        </div>
+        <div class="instrument-item">
+          <h3>サックス</h3>
+          <img src="https://via.placeholder.com/150x100?text=Saxophone" alt="サックス">
+        </div>
+        <div class="instrument-item">
+          <h3>パーカッション</h3>
+          <img src="https://via.placeholder.com/150x100?text=Percussion" alt="パーカッション">
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>お気軽にご連絡ください</h2>
+      <p>吹奏楽についての感想や、好きな曲について語りたい方はぜひご連絡ください！</p>
+      <button id="contact-btn">連絡する</button>
+    </section>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
+
